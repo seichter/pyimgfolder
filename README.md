@@ -10,9 +10,13 @@ Python and PIL
 pyimgfolder -i path/to/files -o path/for/output -v -t -h
 
 -i input path from where the parser will find image files
+
 -o output path where the sorted directories will be created and filled
+
 -v verbose to see what happens
+
 -t trial mode to check first
+
 -h help
 
 ## Copyright and License
