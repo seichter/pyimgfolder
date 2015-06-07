@@ -6,4 +6,16 @@ This small utility sorts images into a folder structure based on dates such as 2
 ## Dependencies
 Python and PIL
 
-## License
+## Usage
+pyimgfolder -i path/to/files -o path/for/output -v -t -h
+
+-i input path from where the parser will find image files
+-o output path where the sorted directories will be created and filled
+-v verbose to see what happens
+-t trial mode to check first
+-h help
+
+## Copyright and License
+(c) 2015 [Hartmut Seichter](http://technotecture.com)
+
+distributed under the terms of the 3-Clause BSD License
