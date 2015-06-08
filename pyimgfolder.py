@@ -142,7 +142,6 @@ def main():
 
         run(inputFolder,outputFolder,verbose,trial)
 
-
     except getopt.error, msg:
         print msg
         print "for help use -h"
@@ -150,10 +149,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-#imgfolder = ImageFolder();
-#imgfolder.scan("/Users/hartmut/Pictures/")
-#imgfolder.analyze()
-#imgfolder.copy('/Users/hartmut/Pictures/sorted/')
-#imgfolder.print_matches()
-#imgfolder.run(True)
